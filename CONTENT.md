@@ -23,3 +23,15 @@ Types of tetsing for mobile apps:
 - Compatibility testing
 - UI testing
 
+## Types of mobile applications
+Types of mobile applications:
+- Native
+- Hybrid
+- Browser
+
+Components of Mobile application:
+- UI
+- Application logic
+- Backend
+- DataBase
+- Interaction between components
