@@ -82,3 +82,7 @@ Coverage strategy:
 - Single platform (test only on Android or iOS)
 - Multiplatform (both Android and iOS)
 - Maximal coverage
+
+
+## 04 Emulators and simulators for mobile testing
+Emulator imitates HW, simulator imitates only SW.
