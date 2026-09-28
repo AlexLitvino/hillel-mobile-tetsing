@@ -86,3 +86,6 @@ Coverage strategy:
 
 ## 04 Emulators and simulators for mobile testing
 Emulator imitates HW, simulator imitates only SW.
+
+
+## 05 Downloading and installation Android Studio
