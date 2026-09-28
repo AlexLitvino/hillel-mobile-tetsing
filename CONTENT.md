@@ -104,4 +104,28 @@ Device could be connected via cable or Wi-Fi
 
 
 ## 07 Android Emulator
-Android Studio -> Tools -> Device Manager
+Android Studio -> Tools -> Device Manager (AVD Manager)
+
+
+## 08 Possibilities of Android emulator
+Possibilities:
+- Turn off/on
+- Volume on/off
+- Rotate
+- Back/Home/Menu
+- Screenshot
+- Record video
+- Snapshots (to save device state)
+- Add keyboard
+- Displays
+- Cellular
+- Battery
+- Camera
+- Location
+- Phone
+- Directional pad (joystick)
+- Microphone
+- Fingerprint
+- Virtual sensors
+- Google Play
+- Settings
