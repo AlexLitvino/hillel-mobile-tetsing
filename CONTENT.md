@@ -101,3 +101,7 @@ Then Developer options option will appear:
 Settings -> Developer options -> USB debugging
 
 Device could be connected via cable or Wi-Fi
+
+
+## 07 Android Emulator
+Android Studio -> Tools -> Device Manager
