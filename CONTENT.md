@@ -89,3 +89,15 @@ Emulator imitates HW, simulator imitates only SW.
 
 
 ## 05 Downloading and installation Android Studio
+
+
+## 06 Obtaining developers rights and connecting device
+To enable Developer options, click 7 times on:  
+About phone -> Serial number  
+OR  
+Software information -> Build number  
+
+Then Developer options option will appear:  
+Settings -> Developer options -> USB debugging
+
+Device could be connected via cable or Wi-Fi
