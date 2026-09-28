@@ -129,3 +129,14 @@ Possibilities:
 - Virtual sensors
 - Google Play
 - Settings
+
+
+## 09 Frequent problem when working with Android Studio
+Add to environment variable PATH the following path:
+```shell
+...\Android\Sdk\platform-tools
+```
+Check if it is set correctly
+```shell
+adb --version
+```
