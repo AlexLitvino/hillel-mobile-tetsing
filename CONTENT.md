@@ -140,3 +140,58 @@ Check if it is set correctly
 ```shell
 adb --version
 ```
+
+
+## 10 APK-file static testing using aapt2
+aapt2 (Android Asset Packaging Tool)
+It is located
+```shell
+Android\sdk\build-tools\<MAX_ANDROID_VERSION>\aapt2
+```
+Check
+```shell
+aapt2 version
+```
+
+Common information
+```shell
+aapt2 dump badging <APK_FILE>
+```
+Results:
+- versionName
+- compileSdkVersionName
+- sdkVersion - minimum version
+- targetSdkVersion - target version
+- usesPermission - list of permissions
+- launchable-activity - activity that starts application
+- feature-group - list of permissions that will be requested
+- supports-screens
+- locales - supported locales
+- native-code - supported processors
+- supports-any-density, densities - supported screen resolutions 
+
+Permissions
+```shell
+aapt2 dump permissions <APK_FILE>
+```
+
+Get packagename
+```shell
+aapt2 dump packagename <APK_FILE>
+```
+
+```shell
+aapt2 dump configurations <APK_FILE>
+```
+Manifest structure
+```shell
+aapt2 dump xmltree app.apk AndroidManifest.xml
+```
+
+Application resources
+```shell
+aapt2 dump resources app.apk
+```
+
+https://developer.android.com/tools/aapt2    aapt2  
+https://developer.android.com/guide/topics/manifest/uses-sdk-element    Android API Levels  
