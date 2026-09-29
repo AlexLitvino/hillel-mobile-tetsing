@@ -195,3 +195,34 @@ aapt2 dump resources app.apk
 
 https://developer.android.com/tools/aapt2    aapt2  
 https://developer.android.com/guide/topics/manifest/uses-sdk-element    Android API Levels  
+
+
+## 11 Installation, update and removing (Android)
+Installation
+```shell
+adb install path_to_your_apk.apk    // Install apk to device
+```
+
+Update (rollout)
+```shell
+adb install -r path_to_your_NEW_apk.apk
+```
+
+```shell
+adb uninstall <PACKAGE_NAME>
+```
+
+List of all installed packages
+```shell
+adb shell pm list packages
+```
+
+Edge cases:
+- Installation when not enough memory
+- Interrupted installation/removing
+- Clearing data
+
+Clear data
+```shell
+adb shell pm clear <PACKAGE_NAME>
+```
