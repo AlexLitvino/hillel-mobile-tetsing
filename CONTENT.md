@@ -226,3 +226,14 @@ Clear data
 ```shell
 adb shell pm clear <PACKAGE_NAME>
 ```
+
+
+## 12 Installation, update and removing (iOS)
+Installation via:
+- App Store
+- TestFlight
+- Enterprise Distribution
+- XCode
+- QR-code (OTA Distribution)
+
+Add device UID to Developers Profile
