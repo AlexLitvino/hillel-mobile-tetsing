@@ -237,3 +237,40 @@ Installation via:
 - QR-code (OTA Distribution)
 
 Add device UID to Developers Profile
+
+
+## 13 Interruption testing
+Interruption:
+- System
+- Network
+- Device state change
+- External
+
+System interruptions:
+- Incoming calls
+- SMS
+- Push notifications
+- System notifications (low battery, OS update)
+
+Network interruptions:
+- Connection lost
+- Change from Wi-Fi to Cellular and back
+- Airplane mode
+- Roaming
+- VPN
+
+Device state change interruption
+- Blocking/Unblocking
+- Rotation
+- Connecting/disconnecting charger
+- Connecting/disconnecting earphones/other Bluetooth devices
+- Turn on / off
+- Sending app to background
+- Opening notifications bar
+- Automatic blocking
+
+External interruptions:
+- Notifications from other apps
+- Emails
+- Picture in picture
+- Distributed screen
