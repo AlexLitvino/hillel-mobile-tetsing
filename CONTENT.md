@@ -274,3 +274,37 @@ External interruptions:
 - Emails
 - Picture in picture
 - Distributed screen
+
+
+## 14 Permissions testing
+In project permissions are kept in app.config (Android) or info.plist (iOS) files.  
+
+Permissions types (Android)
+- Normal Permissions (no request) (INTERNET, ACCESS_WIFI_STATE, VIBRATE)
+- Dangerous Permissions (require explicit allowance) (CAMERA, READ/WRITE_EXTERNAL_STORAGE, READ_CONTACTS, ACCESS_FINE_LOCATION, READ_SMS)
+- Signature Permissions (for apps developed by the same developer) (BIND_ACCESSIBILITY_SERVICE)
+- Special Permissions (permissions provided only via System Settings) (SYSTEM_ALERT_WINDOW, WRITE_SETTINGS)
+
+Permissions types (iOS)
+- App Permissions (main functions and device data) (Location, Contacts, Camera, Microphone)
+- Sensitive Data Permissions (access to confidential data) (Health, HomeKit, Siri)
+- Hardware Permissions (access to device hardware components) (Bluetooth, NFC)
+- System Permissions (access to system functions or services) (Background App Refresh, Notification)
+
+Scenarios:
+- Correctly asking permissions
+- Adequate working when deny permission
+- Sequential permission request
+- Removing permissions
+- If app asks for extra redundant permissions?
+- Data security and confidentiality (data processed in correct way)
+- Permissions on different OS versions
+
+Additional scenarios:
+- Permissions in different access modes (background, limited access)
+- Permissions changes during app work
+- Permission requests localization
+- Integration with other applications
+- Check permissions in extremal situation
+- Different platforms and devices
+- Compatibility to standards (GDPR, CCPA)
