@@ -308,3 +308,14 @@ Additional scenarios:
 - Check permissions in extremal situation
 - Different platforms and devices
 - Compatibility to standards (GDPR, CCPA)
+
+
+## 15 Checking network interaction during testing mobile applications
+Scenarios:
+- No Internet connection
+- Changing to Cellular from Wi-Fi and back
+- Slow internet
+- Proxy and VPN
+- Sending and obtaining data to/from server
+- Error handling
+- Correct caching
