@@ -399,3 +399,7 @@ Search in logs:
 - Ctrl+F
 - Filters (level:info & package:com.HillelAuto) (&|-() - logical operators)
 - Custom tags (tag: <TAG_VALUE>)
+
+
+## 18 Test mode
+WhiteBox screen
