@@ -319,3 +319,58 @@ Scenarios:
 - Sending and obtaining data to/from server
 - Error handling
 - Correct caching
+
+
+## 16 Push-notifications testing
+Principles of push-notifications work:
+1. Install app on device
+2. OS request permission to send notifications. OS get token (device ID) from push-notifications service
+3. OS sends token to server
+4. Server sends notifications during events
+
+Types of mobile notifications:
+- Information notification
+- Geolocation notification
+- Re-engagement
+- Ads notification
+- Periodical notification
+- Notification about survey
+
+Types of mobile notifications:
+- Text notifications
+- Rich Notifications
+- Actionable Notifications
+- Local Notifications
+- Push-to-Local Notifications
+
+Technology:
+- Firebase Cloud Messaging (FCM) (Android)
+- Apple Push Notification Service (APNs) (iOS)
+
+### Scenarios
+Checks in different app state:
+- Notification when app is not started
+- Notification when app is started
+- Notification when app in background
+- Notification during app start
+- Notification during game
+- Notification when another app is active
+
+Checks for interaction with notification:
+- Click on notification
+- Appropriate part app is open
+- No repeatative notification
+- Start app from background
+
+Checks of display and behavior:
+- Notification in different time zones
+- Sound, vibration and blinking
+- Notification in app
+- Notification in bar
+- Notification title
+- Notification language
+- Notification disappears from bar when it was opened
+
+Checks of icons and counters:
+- Counter update when new notification
+- Counter update when notification was read
