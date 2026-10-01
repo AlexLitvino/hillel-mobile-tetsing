@@ -374,3 +374,28 @@ Checks of display and behavior:
 Checks of icons and counters:
 - Counter update when new notification
 - Counter update when notification was read
+
+
+## 17 Logs
+On Android, Android Studio -> Logcat  (View > Tool Windows > Logcat)
+On iOS, using Console app  
+```shell
+adb logcat > logs.txt
+adb logcat *:E > error_logs.txt
+adb logcat -s MyApp > myapp_logs.txt
+adb logcat -v time > logs_with_time.txt
+adb logcat -G 16M
+```
+
+Log levels:
+- Verbose
+- Debug
+- Information
+- Warning
+- Error
+- Crash (Assert?)
+
+Search in logs:
+- Ctrl+F
+- Filters (level:info & package:com.HillelAuto) (&|-() - logical operators)
+- Custom tags (tag: <TAG_VALUE>)
