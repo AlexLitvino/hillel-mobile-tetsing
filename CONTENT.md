@@ -440,3 +440,12 @@ For Android, in manifest it should be allowed to sniff application.
 - DNS Spoofing
 - Reverse Proxy
 - External Proxying
+
+
+## 22 Configuring Charles in Android Studio
+For Android emulator, Network is AndroidWiFi, Proxy address is 10.0.2.2, port 8.8.8.8  
+In Charles: Help -> SSL Proxying -> Save Charles Root Certificate...  
+Drag and drop created certificate to device  
+Install certificate, in Settings -> CA Certificate
+
+https://www.charlesproxy.com/documentation/    Charles documentation
