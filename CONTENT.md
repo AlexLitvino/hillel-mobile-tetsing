@@ -413,3 +413,13 @@ Install SSL Certificate:
 Help -> SSL Proxying -> Install Charles Root Certificate
 
 For certificate need set Always trust.
+
+
+## 20 Connecting Android and iOS to Charles
+On device in Wi-Fi settings open Proxy settings:
+Add IP address of laptop and port 8888.
+
+In Safari navigate to chsl.pro/ssl and download profile.
+Enable Certificate in About.
+
+For Android, in manifest it should be allowed to sniff application.
