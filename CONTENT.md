@@ -403,3 +403,13 @@ Search in logs:
 
 ## 18 Test mode
 WhiteBox screen
+
+
+## 19 Traffic sniffers
+Install Charles Proxy:  
+https://www.charlesproxy.com/download/latest-release/
+
+Install SSL Certificate:  
+Help -> SSL Proxying -> Install Charles Root Certificate
+
+For certificate need set Always trust.
