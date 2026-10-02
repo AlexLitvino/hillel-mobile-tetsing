@@ -423,3 +423,20 @@ In Safari navigate to chsl.pro/ssl and download profile.
 Enable Certificate in About.
 
 For Android, in manifest it should be allowed to sniff application.
+
+
+## 21 Main and additional tools for Charles
+- Traffic capture
+- Request/response details
+- Filtering and search
+- Repeat: repeated send of selected request
+- Edit and Resend: editing request before repeated sending
+- Sessions record and save
+- Sessions export and import
+- Throttling
+- Breakpoints
+- Map Remote
+- Rewrite
+- DNS Spoofing
+- Reverse Proxy
+- External Proxying
