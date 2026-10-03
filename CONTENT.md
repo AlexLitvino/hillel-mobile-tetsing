@@ -449,3 +449,21 @@ Drag and drop created certificate to device
 Install certificate, in Settings -> CA Certificate
 
 https://www.charlesproxy.com/documentation/    Charles documentation
+
+
+## 23 Mobile testing planning
+- Who is our project for?
+- Who is our goal auditory?
+- What types of devices our project is orientated?
+
+Concern resources as:
+- Needed resources
+- Existing resources
+- Not enough resources
+
+Resources:
+- Devices
+- Staff
+- Time
+
+Devices - Android/iOS, Phone/Tablet, OS versions
