@@ -467,3 +467,7 @@ Resources:
 - Time
 
 Devices - Android/iOS, Phone/Tablet, OS versions
+
+
+## 24 Organizing testing
+Device management (who owns device)
